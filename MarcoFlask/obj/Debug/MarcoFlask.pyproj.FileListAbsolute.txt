@@ -1,0 +1,1 @@
+C:\Marco\Project\Python\Flask\MarcoFlask\obj\Debug\MarcoFlask.pyproj.CoreCompileInputs.cache

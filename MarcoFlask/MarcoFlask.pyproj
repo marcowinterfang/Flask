@@ -27,20 +27,40 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Common\Encryption.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MarcoFlask\Class\mysql.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mcmysql\loginfo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mcmysql\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="runserver.py" />
     <Compile Include="MarcoFlask\__init__.py" />
     <Compile Include="MarcoFlask\views.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Common\" />
     <Folder Include="MarcoFlask\" />
+    <Folder Include="MarcoFlask\Class\" />
     <Folder Include="MarcoFlask\static\" />
     <Folder Include="MarcoFlask\static\content\" />
     <Folder Include="MarcoFlask\static\fonts\" />
     <Folder Include="MarcoFlask\static\scripts\" />
     <Folder Include="MarcoFlask\templates\" />
+    <Folder Include="mcmysql\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MarcoFlask\templates\Login.html" />
+    <Content Include="MarcoFlask\templates\error.html" />
+    <Content Include="MarcoFlask\templates\login.html" />
+    <Content Include="mcmysql\web.config" />
     <Content Include="requirements.txt" />
     <Content Include="MarcoFlask\static\content\bootstrap.css" />
     <Content Include="MarcoFlask\static\content\bootstrap.min.css" />
